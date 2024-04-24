@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_request -> setCurrentFragment(RequestFragment())
                 R.id.nav_deatils -> setCurrentFragment(DetailsFragment())
                 R.id.nav_pay -> setCurrentFragment(PaymentFragment())
-                R.id.nav_description -> setCurrentFragment(DescriptionFragment())
+
             }
             true
         }
