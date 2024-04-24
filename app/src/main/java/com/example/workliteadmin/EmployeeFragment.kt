@@ -29,13 +29,23 @@ class EmployeeFragment : Fragment() {
 
         // Sample data for ProfileItems
         val profileItems = CollectionUtils.listOf(
-            ProfileItem("Sunita", "9015768567", R.drawable.person),
-            ProfileItem("Sunita", "9015768567", R.drawable.person),
-            ProfileItem("Sunita", "9015768567", R.drawable.person),
-            ProfileItem("Sunita", "9015768567", R.drawable.person),
-            ProfileItem("Sunita", "9015768567", R.drawable.person),
-            ProfileItem("Sunita", "9015768567", R.drawable.person),
-            ProfileItem("Sunita", "9015768567", R.drawable.person),
+
+
+                ProfileItem("Mala",  "7392659120", R.drawable.woman12),
+        ProfileItem("Deepa","9251329227", R.drawable.woman13),
+        ProfileItem("Sonam", "6398462203", R.drawable.woman14),
+        ProfileItem("Mahima", "8645920410", R.drawable.woman15),
+        ProfileItem("Pratibha", "9015768567", R.drawable.woman1),
+        ProfileItem("Ragini", "8874356772", R.drawable.woman2),
+        ProfileItem("Sushila", "6954302105", R.drawable.woman4),
+        ProfileItem("Naina",  "6392134091", R.drawable.woman5),
+        ProfileItem("Vineeta","8764592061", R.drawable.woman6),
+        ProfileItem("Poonam", "8313750129", R.drawable.woman7),
+        ProfileItem("Sunita", "6205672349", R.drawable.woman8),
+        ProfileItem("Rohini", "8299789338", R.drawable.woman9),
+        ProfileItem("Sapna", "9693265100", R.drawable.woman10),
+        ProfileItem("Pinki", "7884356013", R.drawable.woman16),
+
             // Add more ProfileItems as needed
         )
 
