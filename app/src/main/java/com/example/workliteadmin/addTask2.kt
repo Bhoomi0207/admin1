@@ -23,20 +23,11 @@ class addTask2 : AppCompatActivity() {
     private fun validateAndStoreData() {
         val taskName = binding.taskame.text.toString()
         val taskDate = binding.taskdate.text.toString()
-        val checkIn = binding.checkin.text.toString()
-        val checkOut = binding.checkout.text.toString()
+        val checkIn = binding.taskame.text.toString()
+        val checkOut = binding.taskdate.text.toString()
 
-        /* if (taskName.isEmpty()) {
-             binding.taskame.requestFocus()
-             binding.taskame.error = "Task Name cannot be empty"
-             return
-         }
 
-         if (taskDate.isEmpty()) {
-             binding.taskdate.requestFocus()
-             binding.taskdate.error = "Task Date cannot be empty"
-             return
-         }*/
+
 
 
 
@@ -75,3 +66,4 @@ class addTask2 : AppCompatActivity() {
         binding.checkout.text = null
     }
 }
+
