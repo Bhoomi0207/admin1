@@ -47,6 +47,7 @@ class addTask2 : AppCompatActivity() {
         val db = Firebase.firestore
         val productsRef = db.collection("Products")
 
+
         val data = addTaskModel(binding.taskame.toString(),
             binding.taskdate.toString(),
             binding.checkin.toString(),
