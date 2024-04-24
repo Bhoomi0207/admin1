@@ -70,35 +70,6 @@
             android:textSize="15sp"
             tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
-        <com.google.android.material.textfield.MaterialAutoCompleteTextView
-            android:id="@+id/checkin"
-            android:layout_width="match_parent"
-            android:layout_height="50sp"
-            android:layout_marginHorizontal="20dp"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/edit_text_bg"
-            android:fontFamily="@font/montaga"
-            android:hint="Check in"
-            android:padding="5dp"
-            android:inputType="datetime"
-            android:textColorHint="@color/black"
-            android:textSize="15sp"
-            tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize" />
-
-        <com.google.android.material.textfield.MaterialAutoCompleteTextView
-            android:id="@+id/checkout"
-            android:layout_width="match_parent"
-            android:layout_height="50sp"
-            android:layout_marginHorizontal="20dp"
-            android:layout_marginBottom="15dp"
-            android:background="@drawable/edit_text_bg"
-            android:fontFamily="@font/montaga"
-            android:hint="Check Out"
-            android:padding="5dp"
-            android:inputType="datetime"
-            android:textColorHint="@color/black"
-            android:textSize="15sp"
-            tools:ignore="HardcodedText,TouchTargetSizeCheck,VisualLintTextFieldSize" />
 
 
         <androidx.appcompat.widget.AppCompatButton
