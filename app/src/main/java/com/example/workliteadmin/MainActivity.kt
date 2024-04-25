@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
 
         // Set the initial fragment
-        setCurrentFragment(EmployeeFragment())
+        setCurrentFragment(DetailsFragment())
 
         bottomNavigationView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {

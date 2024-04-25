@@ -16,7 +16,7 @@
         android:id="@+id/nav_request"
         android:title="Request"
 
-        android:icon="@drawable/h" />
+        android:icon="@drawable/hiring" />
     <item
         android:id="@+id/nav_pay"
         android:title="Pay"
