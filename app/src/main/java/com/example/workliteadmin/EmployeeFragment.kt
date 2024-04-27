@@ -29,9 +29,8 @@ class EmployeeFragment : Fragment() {
 
         // Sample data for ProfileItems
         val profileItems = CollectionUtils.listOf(
-
-
-                ProfileItem("Mala",  "7392659120", R.drawable.woman12),
+            ProfileItem("Priya", "9015768567", R.drawable.woman1),
+            ProfileItem("Mala",  "7392659120", R.drawable.woman12),
         ProfileItem("Deepa","9251329227", R.drawable.woman13),
         ProfileItem("Sonam", "6398462203", R.drawable.woman14),
         ProfileItem("Mahima", "8645920410", R.drawable.woman15),

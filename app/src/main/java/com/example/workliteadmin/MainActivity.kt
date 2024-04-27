@@ -15,13 +15,13 @@ class MainActivity : AppCompatActivity() {
         val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
 
         // Set the initial fragment
-        setCurrentFragment(DetailsFragment())
+        setCurrentFragment(EmployeeFragment())
 
         bottomNavigationView.setOnNavigationItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_home -> setCurrentFragment(EmployeeFragment())
                 R.id.nav_request -> setCurrentFragment(RequestFragment())
-                R.id.nav_deatils -> setCurrentFragment(DetailsFragment())
+                R.id.nav_deatils -> setCurrentFragment(ComplainFragment())
                 R.id.nav_pay -> setCurrentFragment(PaymentFragment())
 
             }

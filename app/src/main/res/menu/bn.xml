@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
+    <!--<item
         android:id="@+id/nav_deatils"
         android:title="Details"
-        android:icon="@drawable/ic_baseline_description_24" />
+        android:icon="@drawable/ic_baseline_description_24" />-->
 
     <item
         android:id="@+id/nav_home"
@@ -14,13 +14,20 @@
 
     <item
         android:id="@+id/nav_request"
-        android:title="Request"
+        android:title="Hiring"
 
         android:icon="@drawable/hiring" />
+
+    <item
+        android:id="@+id/nav_deatils"
+        android:title="Complains"
+        android:icon="@drawable/ic_baseline_description_24" />
     <item
         android:id="@+id/nav_pay"
         android:title="Pay"
         android:icon="@drawable/pay" />
+
+
 
 
 

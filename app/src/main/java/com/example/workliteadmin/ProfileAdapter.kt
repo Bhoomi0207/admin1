@@ -2,8 +2,12 @@ package com.example.workliteadmin
 
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContentProviderCompat.requireContext
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.workliteadmin.databinding.LayoutProfileItemBinding
 
@@ -28,7 +32,15 @@ class ProfileAdapter(private val context: Context, private val list: List<Profil
         // Glide.with(context).load(currentItem.image).into(holder.binding.imageView4)
 
         // You can set click listeners or any other functionality here
-        // holder.itemView.setOnClickListener { /* Handle item click */ }
+         holder.itemView.setOnClickListener {
+             val intent = Intent(context, DetailActivity::class.java)
+
+
+              intent.putExtra("key", currentItem.name)
+
+                context.startActivity(intent)
+
+         }
     }
 
     override fun getItemCount(): Int {
